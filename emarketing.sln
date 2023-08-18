@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "emarketing", "emarketing\emarketing.csproj", "{48C62EF8-0C20-4D64-98E0-816197B2AFBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C62EF8-0C20-4D64-98E0-816197B2AFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C62EF8-0C20-4D64-98E0-816197B2AFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C62EF8-0C20-4D64-98E0-816197B2AFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C62EF8-0C20-4D64-98E0-816197B2AFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {540C4BF5-C282-4606-A0DD-F3C3BA723BCB}
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
 
 namespace emarketing.Controllers
 {
@@ -84,7 +85,15 @@ namespace emarketing.Controllers
 
         //}
 
+        public ActionResult ViewCategory(int?page)
+        {
+            int pagesize = 9, pageindex = 1;
+            pageindex = page.HasValue ? Convert.ToInt32(page) : 1;
+            var list = db.tbl_category.Where(x => x.cat_status == 1).OrderByDescending(x => x.cat_id).ToList();
+            IPagedList<tbl_category> stu = list.ToPagedList(pageindex, pagesize);
+            return View(stu);
 
+        }
 
 
         public string uploadimgfile(HttpPostedFileBase file)

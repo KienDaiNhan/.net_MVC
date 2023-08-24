@@ -79,3 +79,7 @@ E:\TONGHOPWEB\emarketing\emarketing\obj\Debug\emarketing.csproj.CoreCompileInput
 E:\TONGHOPWEB\emarketing\emarketing\obj\Debug\emarketing.csproj.CopyComplete
 E:\TONGHOPWEB\emarketing\emarketing\obj\Debug\emarketing.dll
 E:\TONGHOPWEB\emarketing\emarketing\obj\Debug\emarketing.pdb
+E:\TONGHOPWEB\emarketing\emarketing\bin\PagedList.dll
+E:\TONGHOPWEB\emarketing\emarketing\bin\PagedList.Mvc.dll
+E:\TONGHOPWEB\emarketing\emarketing\bin\PagedList.xml
+E:\TONGHOPWEB\emarketing\emarketing\bin\PagedList.Mvc.xml

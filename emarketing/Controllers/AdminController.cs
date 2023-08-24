@@ -11,7 +11,7 @@ namespace emarketing.Controllers
 {
     public class AdminController : Controller
     {
-        dbemarketingEntities db = new dbemarketingEntities();
+         dbemarketingEntities db = new dbemarketingEntities();
         // GET: Admin
 
         [HttpGet]
@@ -28,7 +28,6 @@ namespace emarketing.Controllers
             {
                 Session["ad_id"] = ad.ad_id.ToString();
                 return RedirectToAction("Create");
-                
             }
             else
             {
@@ -63,27 +62,14 @@ namespace emarketing.Controllers
                 cat.car_fk_ad = Convert.ToInt32(Session["ad_id"].ToString());
                 db.tbl_category.Add(cat);
                 db.SaveChanges();
-                return RedirectToAction("Create");
+                return RedirectToAction("ViewCategory");
             }
             return View();
         }
         //endddddddddddddddd
 
 
-        //public ActionResult ViewCategory(int? page)
-        //{
-        //    int pagesize = 9, pageindex = 1;
-        //    pageindex = page.HasValue ? Convert.ToInt32(page) : 1;
-        //    var list = db.tbl_category.Where(x => x.cat_status == 1).OrderByDescending(x => x.cat_id).ToList();
-        //    IPagedList<tbl_category> stu = list.ToPagedList(pageindex, pagesize);
-
-
-        //    return View(stu);
-
-
-
-
-        //}
+       
 
         public ActionResult ViewCategory(int?page)
         {

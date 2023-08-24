@@ -134,6 +134,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -174,8 +175,13 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\upload\emarketing.png" />
     <Content Include="Content\PagedList.css" />
     <Content Include="Content\paginition.css" />
+    <Content Include="Content\upload\cold.png" />
+    <Content Include="Content\upload\hot.png" />
+    <Content Include="Content\upload\humidity.png" />
+    <Content Include="Content\upload\wind.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -227,11 +233,16 @@
     <Content Include="Views\Admin\login.cshtml" />
     <Content Include="Views\Admin\Create.cshtml" />
     <Content Include="Views\Admin\ViewCategory.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\SignUp.cshtml" />
+    <Content Include="Views\User\login.cshtml" />
+    <Content Include="Views\User\CreateAd.cshtml" />
+    <Content Include="Views\Shared\Layout1.cshtml" />
+    <Content Include="Views\User\Ads.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\image\" />
-    <Folder Include="Content\upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
